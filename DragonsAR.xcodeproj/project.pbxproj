@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B28621129719228001660FE /* Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28621029719228001660FE /* Monsters.swift */; };
+		5B28621329719498001660FE /* ExtensionVCMapMonsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28621229719498001660FE /* ExtensionVCMapMonsters.swift */; };
+		5B2862152972D6BA001660FE /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2862142972D6BA001660FE /* Keys.swift */; };
+		5B28621829757BCB001660FE /* ARScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B28621729757BCB001660FE /* ARScreen.storyboard */; };
+		5B28621A29757BFB001660FE /* ViewControllerAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28621929757BFB001660FE /* ViewControllerAR.swift */; };
+		5B28621D2976D5F0001660FE /* MyTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28621C2976D5F0001660FE /* MyTeamViewController.swift */; };
+		5B28621F2976DDEE001660FE /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28621E2976DDEE001660FE /* MonsterCell.swift */; };
+		5B588EF02970513A005F0762 /* ExtensionVCMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B588EEF2970513A005F0762 /* ExtensionVCMap.swift */; };
+		5B950F4A296EFD0B00D7CC8F /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B950F49296EFD0B00D7CC8F /* ViewControllerMap.swift */; };
+		5BC8D718296C52F7001F503E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8D717296C52F7001F503E /* AppDelegate.swift */; };
+		5BC8D71A296C52F7001F503E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8D719296C52F7001F503E /* SceneDelegate.swift */; };
+		5BC8D71C296C52F7001F503E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8D71B296C52F7001F503E /* ViewController.swift */; };
+		5BC8D71F296C52F7001F503E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8D71D296C52F7001F503E /* Main.storyboard */; };
+		5BC8D721296C52F9001F503E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8D720296C52F9001F503E /* Assets.xcassets */; };
+		5BC8D724296C52F9001F503E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8D722296C52F9001F503E /* LaunchScreen.storyboard */; };
+		5BC8D72F296C6065001F503E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8D72E296C6065001F503E /* ViewController3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B28621029719228001660FE /* Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monsters.swift; sourceTree = "<group>"; };
+		5B28621229719498001660FE /* ExtensionVCMapMonsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionVCMapMonsters.swift; sourceTree = "<group>"; };
+		5B2862142972D6BA001660FE /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		5B28621729757BCB001660FE /* ARScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ARScreen.storyboard; sourceTree = "<group>"; };
+		5B28621929757BFB001660FE /* ViewControllerAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAR.swift; sourceTree = "<group>"; };
+		5B28621C2976D5F0001660FE /* MyTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamViewController.swift; sourceTree = "<group>"; };
+		5B28621E2976DDEE001660FE /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
+		5B588EEF2970513A005F0762 /* ExtensionVCMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionVCMap.swift; sourceTree = "<group>"; };
+		5B950F49296EFD0B00D7CC8F /* ViewControllerMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
+		5BC8D714296C52F7001F503E /* DragonsAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonsAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC8D717296C52F7001F503E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BC8D719296C52F7001F503E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BC8D71B296C52F7001F503E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BC8D71E296C52F7001F503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BC8D720296C52F9001F503E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BC8D723296C52F9001F503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BC8D725296C52F9001F503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC8D72E296C6065001F503E /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC8D711296C52F7001F503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B10F53F2978234E006682F5 /* CheckLocation */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D71B296C52F7001F503E /* ViewController.swift */,
+				5BC8D72E296C6065001F503E /* ViewController3.swift */,
+			);
+			path = CheckLocation;
+			sourceTree = "<group>";
+		};
+		5B28621629757B31001660FE /* ARView */ = {
+			isa = PBXGroup;
+			children = (
+				5B28621729757BCB001660FE /* ARScreen.storyboard */,
+				5B28621929757BFB001660FE /* ViewControllerAR.swift */,
+			);
+			path = ARView;
+			sourceTree = "<group>";
+		};
+		5B28621B2976D5C2001660FE /* MyTeamView */ = {
+			isa = PBXGroup;
+			children = (
+				5B28621C2976D5F0001660FE /* MyTeamViewController.swift */,
+				5B28621E2976DDEE001660FE /* MonsterCell.swift */,
+			);
+			path = MyTeamView;
+			sourceTree = "<group>";
+		};
+		5B588EEC297050A2005F0762 /* MapViews */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D71D296C52F7001F503E /* Main.storyboard */,
+				5B950F49296EFD0B00D7CC8F /* ViewControllerMap.swift */,
+				5B588EEF2970513A005F0762 /* ExtensionVCMap.swift */,
+				5B28621229719498001660FE /* ExtensionVCMapMonsters.swift */,
+				5B28621029719228001660FE /* Monsters.swift */,
+			);
+			path = MapViews;
+			sourceTree = "<group>";
+		};
+		5BC8D70B296C52F7001F503E = {
+			isa = PBXGroup;
+			children = (
+				5BC8D716296C52F7001F503E /* DragonsAR */,
+				5BC8D715296C52F7001F503E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC8D715296C52F7001F503E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D714296C52F7001F503E /* DragonsAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC8D716296C52F7001F503E /* DragonsAR */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8D717296C52F7001F503E /* AppDelegate.swift */,
+				5BC8D719296C52F7001F503E /* SceneDelegate.swift */,
+				5B10F53F2978234E006682F5 /* CheckLocation */,
+				5B588EEC297050A2005F0762 /* MapViews */,
+				5B28621629757B31001660FE /* ARView */,
+				5B28621B2976D5C2001660FE /* MyTeamView */,
+				5BC8D720296C52F9001F503E /* Assets.xcassets */,
+				5B2862142972D6BA001660FE /* Keys.swift */,
+				5BC8D722296C52F9001F503E /* LaunchScreen.storyboard */,
+				5BC8D725296C52F9001F503E /* Info.plist */,
+			);
+			path = DragonsAR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC8D713296C52F7001F503E /* DragonsAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC8D728296C52F9001F503E /* Build configuration list for PBXNativeTarget "DragonsAR" */;
+			buildPhases = (
+				5BC8D710296C52F7001F503E /* Sources */,
+				5BC8D711296C52F7001F503E /* Frameworks */,
+				5BC8D712296C52F7001F503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonsAR;
+			productName = DragonsAR;
+			productReference = 5BC8D714296C52F7001F503E /* DragonsAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC8D70C296C52F7001F503E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5BC8D713296C52F7001F503E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5BC8D70F296C52F7001F503E /* Build configuration list for PBXProject "DragonsAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BC8D70B296C52F7001F503E;
+			productRefGroup = 5BC8D715296C52F7001F503E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC8D713296C52F7001F503E /* DragonsAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC8D712296C52F7001F503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B28621829757BCB001660FE /* ARScreen.storyboard in Resources */,
+				5BC8D724296C52F9001F503E /* LaunchScreen.storyboard in Resources */,
+				5BC8D721296C52F9001F503E /* Assets.xcassets in Resources */,
+				5BC8D71F296C52F7001F503E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC8D710296C52F7001F503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC8D72F296C6065001F503E /* ViewController3.swift in Sources */,
+				5BC8D71C296C52F7001F503E /* ViewController.swift in Sources */,
+				5BC8D718296C52F7001F503E /* AppDelegate.swift in Sources */,
+				5B950F4A296EFD0B00D7CC8F /* ViewControllerMap.swift in Sources */,
+				5B28621A29757BFB001660FE /* ViewControllerAR.swift in Sources */,
+				5B28621129719228001660FE /* Monsters.swift in Sources */,
+				5BC8D71A296C52F7001F503E /* SceneDelegate.swift in Sources */,
+				5B28621329719498001660FE /* ExtensionVCMapMonsters.swift in Sources */,
+				5B28621D2976D5F0001660FE /* MyTeamViewController.swift in Sources */,
+				5B588EF02970513A005F0762 /* ExtensionVCMap.swift in Sources */,
+				5B28621F2976DDEE001660FE /* MonsterCell.swift in Sources */,
+				5B2862152972D6BA001660FE /* Keys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BC8D71D296C52F7001F503E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC8D71E296C52F7001F503E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BC8D722296C52F9001F503E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC8D723296C52F9001F503E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BC8D726296C52F9001F503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BC8D727296C52F9001F503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC8D729296C52F9001F503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5D7V4YFL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DragonsAR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DragonAR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Нужно для работы в AR";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Ваше местоположение нужно для отображения ближайших к Вам монстров на карте";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ваше местоположение нужно для отображения ближайших к Вам монстров на карте";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlekseyKobyakov.DragonsAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC8D72A296C52F9001F503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5D7V4YFL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DragonsAR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DragonAR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Нужно для работы в AR";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Ваше местоположение нужно для отображения ближайших к Вам монстров на карте";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ваше местоположение нужно для отображения ближайших к Вам монстров на карте";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlekseyKobyakov.DragonsAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC8D70F296C52F7001F503E /* Build configuration list for PBXProject "DragonsAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC8D726296C52F9001F503E /* Debug */,
+				5BC8D727296C52F9001F503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC8D728296C52F9001F503E /* Build configuration list for PBXNativeTarget "DragonsAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC8D729296C52F9001F503E /* Debug */,
+				5BC8D72A296C52F9001F503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC8D70C296C52F7001F503E /* Project object */;
+}
