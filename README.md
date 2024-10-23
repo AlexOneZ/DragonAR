@@ -6,8 +6,9 @@
   <img src="https://github.com/user-attachments/assets/56b32bdb-e045-423a-b6ea-ddec4d6d77b4" width="200" />
 </p>
 
-### Карта (Map Kit)
+### Карта с драконами
 
+Для создания этого экрана использовались библиотеки MapKit и CoreLocation
 <p align="center">
   <img src="https://github.com/user-attachments/assets/92a2af4f-bd83-4c96-bf1b-6fa3eda66a5c" width="200" />
 </p>
@@ -18,7 +19,7 @@
   <img src="https://github.com/user-attachments/assets/9e98c617-d98a-464e-8cc5-d217e469eb72" width="200" />
 </p>
 
-### Экран в дополненной реальности (AR Kit)
+### Экран в дополненной реальности (ARKit)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/485e1414-b701-47c0-968a-19b90f87c16f" width="200" />
